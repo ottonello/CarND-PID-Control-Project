@@ -12,10 +12,19 @@ public:
 
   /*
   * Coefficients
-  */ 
+  */
   double Kp;
   double Ki;
   double Kd;
+
+  /*
+  * Accumulator for the integral part
+  */
+  double sum;
+  /*
+  * Accumulator for the derivative part
+  */
+  double lastCte;
 
   /*
   * Constructor
@@ -32,6 +41,10 @@ public:
   */
   void Init(double Kp, double Ki, double Kd);
 
+  /*
+  * Calculate the new steering angle
+  */
+  double CalculateSteering(double cte);
   /*
   * Update the PID error variables given cross track error.
   */
