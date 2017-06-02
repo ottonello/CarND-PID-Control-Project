@@ -25,6 +25,10 @@ public:
   * Accumulator for the derivative part
   */
   double lastCte;
+  /*
+   * CTE Differential
+   */
+  double diffCte;
 
   /*
   * Constructor
@@ -40,11 +44,6 @@ public:
   * Initialize PID.
   */
   void Init(double Kp, double Ki, double Kd);
-
-  /*
-  * Calculate the new steering angle
-  */
-  double CalculateSteering(double cte);
   /*
   * Update the PID error variables given cross track error.
   */
