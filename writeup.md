@@ -13,7 +13,7 @@ The 'P' component, makes the car react to the CTE value in a linear fashion, thi
 
 This is less dramatic for smaller values of 'Kp', but whenever the car encounters a corner, the CTE increases faster and this inducees a violent steering correction which often results in the car going off track. An example is shown below with Kp=0.1:
 
-// VIDEO with p=0.1
+[![SDC - PID controller p=1 ](https://img.youtube.com/vi/e2-nBJlYhYk/0.jpg)](https://www.youtube.com/watch?v=e2-nBJlYhYk)
 
 With Kp(i.e. 0.001) of a smaller value, the car just doesn't react fast enough, the oscillations around the center line seem to have a very low frequency:
 
