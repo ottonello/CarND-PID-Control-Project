@@ -33,8 +33,8 @@ Simulating bias
 
 Bias can be simulated by adding a constant value to the input steering angle. When doing this by substracting a constant 0.3 from the steering value, this is what the behavior of the car looks like:
 
-[![SDC - PID controller p=1 ](https://img.youtube.com/vi/7O_K_s_Lp9g/.jpg)](https://www.youtube.com/watch?v=7O_K_s_Lp9g)
+[![SDC - PID controller p=1 ](https://img.youtube.com/vi/7O_K_s_Lp9g/0.jpg)](https://www.youtube.com/watch?v=7O_K_s_Lp9g)
 
 When setting Ki to 0.001, this bias is corrected(after some initial oscillation), so that the car is also able to pass the track:
 
-[![SDC - PID controller p=1 ](https://img.youtube.com/vi/-Dhbz7xCcqo/.jpg)](https://www.youtube.com/watch?v=-Dhbz7xCcqo)
+[![SDC - PID controller p=1 ](https://img.youtube.com/vi/-Dhbz7xCcqo/0.jpg)](https://www.youtube.com/watch?v=-Dhbz7xCcqo)
